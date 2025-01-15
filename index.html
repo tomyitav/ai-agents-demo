@@ -13,13 +13,13 @@
             padding: 20px;
             background-color: #f5f5f5;
         }
-        h1 {
+        h1, h2 {
             color: #2c3e50;
             text-align: center;
             border-bottom: 2px solid #3498db;
             padding-bottom: 10px;
         }
-        .feature-section {
+        .section {
             background-color: white;
             padding: 20px;
             border-radius: 8px;
@@ -28,6 +28,7 @@
         }
         h2 {
             color: #3498db;
+            border: none;
         }
         ul {
             list-style-type: none;
@@ -44,18 +45,74 @@
             left: 0;
             color: #3498db;
         }
+        .tech-stack {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .tech-item {
+            background: #3498db;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            margin: 5px;
+        }
+        .contact-links {
+            text-align: center;
+        }
+        .contact-links a {
+            color: #3498db;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
     <h1>Welcome to AI Agents Demo</h1>
     <p>This is a demonstration of working with AI agents to create and manage web content.</p>
-    <div class="feature-section">
+    
+    <div class="section">
+        <h2>About</h2>
+        <p>Our project demonstrates the power of AI agents in web development and content management. We leverage cutting-edge technology to automate and streamline the development process.</p>
+        <div class="tech-stack">
+            <span class="tech-item">AI Agents</span>
+            <span class="tech-item">GitHub API</span>
+            <span class="tech-item">HTML5</span>
+            <span class="tech-item">CSS3</span>
+        </div>
+    </div>
+
+    <div class="section">
         <h2>Key Features</h2>
         <ul>
             <li>AI-powered content creation</li>
             <li>Automated repository management</li>
             <li>Simple and clean design</li>
         </ul>
+    </div>
+
+    <div class="section">
+        <h2>Demo</h2>
+        <p>Experience the power of AI-driven development:</p>
+        <ul>
+            <li>Automated repository creation and management</li>
+            <li>Smart content organization and styling</li>
+            <li>Version control and collaboration features</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Contact</h2>
+        <p>Get in touch with us to learn more about AI-powered development:</p>
+        <div class="contact-links">
+            <a href="https://github.com/tomyitav/ai-agents-demo">GitHub Repository</a>
+            <a href="#">Documentation</a>
+            <a href="#">Support</a>
+        </div>
     </div>
 </body>
 </html>
